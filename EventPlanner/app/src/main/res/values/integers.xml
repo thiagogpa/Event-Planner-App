@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_duration_medium">600</integer>
+    <integer name="anim_duration_long">800</integer>
+
+
+    //GUESTS ACTIVITY
+    <integer name="avatar_layout_weight">1</integer>
+    <integer name="seekBar_layout_weight">2</integer>
+
+</resources>

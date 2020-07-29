@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Event Planner</string>
+    <string name="action_settings">Settings</string>
+
+
+    //GUESTS ACTIVITY
+    <string name="title_message_textField">Inform the number of guests</string>
+    <string name="guests_men_textField">Men</string>
+    <string name="guests_women_textField">Women</string>
+    <string name="guests_children_textField">Children</string>
+    <string name="total_textField">Total of guests: </string>
+
+    //INTENT KEYS
+    <string name="INTENT_KEY">EVENT_KEY</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="event_title">Select the event type</string>
+    <string name="INSTANCE_RETRIEVE">SAVED_INSTANCE</string>
+
+    //EVENTS ACTIVITY
+    <string name="title_barbecue">Barbecue</string>
+    <string name="title_birthday">Birthday party</string>
+    <string name="title_business">Business meeting</string>
+    <string name="select_the_event_type">Start by selecting the event type</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="viewGithub">View on GitHub</string>
+    <string name="reportProblem">Problem Report</string>
+    <string name="viewWebsite">Developer Website</string>
+    <string name="actionSave">Save to Gallery</string>
+
+    <string name="animateX">Animate X</string>
+    <string name="animateY">Animate Y</string>
+    <string name="animateXY">Animate XY</string>
+
+    <string name="actionToggleValues">Toggle Values</string>
+    <string name="actionToggleYValues">Toggle Y-Values</string>
+    <string name="actionToggleXValues">Toggle X-Values</string>
+
+    <string name="actionToggleIcons">Toggle Icons</string>
+    <string name="actionToggleHighlight">Toggle Highlight</string>
+    <string name="actionTogglePinch">Toggle PinchZoom</string>
+    <string name="actionToggleAutoScale">Toggle Auto Scale</string>
+
+    <string name="actionToggleLineValues">Toggle Line Values</string>
+    <string name="actionToggleBarValues">Toggle Bar Values</string>
+    <string name="actionToggleBarBorders">Toggle Bar Borders</string>
+    <string name="actionToggleFilled">Toggle Filled</string>
+    <string name="actionToggleCircles">Toggle Circles</string>
+    <string name="actionToggleCandleShadow">Toggle Shadow Color</string>
+
+    <string name="actionToggleCubic">Toggle Cubic</string>
+    <string name="actionToggleStepped">Toggle Stepped</string>
+    <string name="actionToggleHorizontalCubic">Toggle Horizontal Cubic</string>
+
+    <string name="actionAddEntry">Add Entry</string>
+    <string name="actionFeedMultiple">Add Multiple</string>
+    <string name="actionRemoveEntry">Remove Entry</string>
+    <string name="actionAddDataSet">Add Data Set</string>
+    <string name="actionRemoveDataSet">Remove Data Set</string>
+    <string name="actionClearChart">Clear chart</string>
+
+    <string name="actionTogglePercent">Toggle Percent</string>
+    <string name="actionToggleMinAngles">Toggle Minimum Angles</string>
+    <string name="actionToggleHole">Toggle Hole</string>
+    <string name="actionToggleCurvedSlices">Toggle Curved Slices</string>
+    <string name="actionDrawCenterText">Draw Center Text</string>
+    <string name="actionToggleHighlightCircle">Toggle Highlight Circle</string>
+    <string name="actionToggleRotation">Toggle Rotation</string>
+    <string name="actionToggleSpin">Spin Animation</string>
+
+    <string name="dash">-</string>
+    <string name="scrollViewStart">START OF SCROLLVIEW</string>
+    <string name="scrollViewEnd">END OF SCROLLVIEW</string>
+
+</resources>
