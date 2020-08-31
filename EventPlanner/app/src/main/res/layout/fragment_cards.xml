@@ -69,7 +69,7 @@
                             android:layout_height="match_parent"
                             android:orientation="horizontal">
 
-                            <com.example.event_planner.customElements.CurrencyEditText
+                            <com.lain.event_planner.customElements.CurrencyEditText
                                 android:id="@+id/edtPrice"
                                 style="@style/currencyTextEdit"
                                 android:layout_width="@dimen/editText_width"

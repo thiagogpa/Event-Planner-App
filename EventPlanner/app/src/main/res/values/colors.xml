@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#996EE8</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#9C27B0</color>
     <color name="grey_300">#E0E0E0</color>
     <color name="color_white">#FFFFFF</color>
 
     <color name="imageButtonBG">#92CF94</color>
     <color name="rippleColor">#9C27B0</color>
 
-    <color name="tableHeader">#4CAF50</color>
+    <color name="textColor1">#996EE8</color>
+
+    <color name="tableHeader">#B39DDB</color>
     <color name="oddItem">#9E81C784</color>
     <color name="evenItem">#C9DCE775</color>
 
-    <color name="itemDivisor">#C9DCE775</color>
+    <color name="itemDivisor">#B39DDB</color>
+
+    <color name="details">#4CAF50</color>
+
+    <color name="background">#F1F8E9</color>
 </resources>

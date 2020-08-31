@@ -25,14 +25,10 @@
     <string name="select_the_event_type">Start by selecting the event type</string>
 
 
-
-
-
-
-
-
-
-
+    //LOCATION SELECTION ACTIVITY
+    <string name="title_address">by Address</string>
+    <string name="title_establishment">by Establishment</string>
+    <string name="select_the_location_method">Select how you want to set the event location</string>
 
 
     <string name="viewGithub">View on GitHub</string>

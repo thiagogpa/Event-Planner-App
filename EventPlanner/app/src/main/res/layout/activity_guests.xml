@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background">
 
 
     <TextView
@@ -24,12 +25,12 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="60dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txvTitle"
-        android:gravity="center">
+        app:layout_constraintTop_toBottomOf="@+id/txvTitle">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -44,58 +45,57 @@
                 android:orientation="vertical">
 
 
-            <LinearLayout
-                android:id="@+id/linearMen"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/item_layout_marginBottom"
-                android:orientation="vertical">
-
                 <LinearLayout
+                    android:id="@+id/linearMen"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:layout_marginBottom="@dimen/item_layout_marginBottom"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView1"
-                        style="@style/subTitleGuestsTextView"
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/guests_men_textField" />
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageViewMen"
-                        android:layout_width="@dimen/avatar_image_width"
-                        android:layout_height="@dimen/avatar_image_height"
-                        android:layout_weight="@integer/avatar_layout_weight"
-                        app:srcCompat="@drawable/man" />
-
-
-                    <com.warkiz.widget.IndicatorStayLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="@integer/seekBar_layout_weight">
-
-                        <com.warkiz.widget.IndicatorSeekBar
-                            android:id="@+id/indSeekBarMen"
-                            android:layout_width="match_parent"
+                        <TextView
+                            android:id="@+id/textView1"
+                            style="@style/subTitleGuestsTextView"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:isb_progress="0"
-                            app:isb_show_indicator="circular_bubble"
-                            app:isb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
-                            app:isb_thumb_size="26dp" />
-                    </com.warkiz.widget.IndicatorStayLayout>
-            </LinearLayout>
+                            android:text="@string/guests_men_textField" />
 
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageViewMen"
+                            android:layout_width="@dimen/avatar_image_width"
+                            android:layout_height="@dimen/avatar_image_height"
+                            android:layout_weight="@integer/avatar_layout_weight"
+                            app:srcCompat="@drawable/man" />
+
+
+                        <com.warkiz.widget.IndicatorStayLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="@integer/seekBar_layout_weight">
+
+                            <com.warkiz.widget.IndicatorSeekBar
+                                android:id="@+id/indSeekBarMen"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:isb_progress="0"
+                                app:isb_show_indicator="circular_bubble"
+                                app:isb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
+                                app:isb_thumb_size="26dp" />
+                        </com.warkiz.widget.IndicatorStayLayout>
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -224,20 +224,20 @@
 
                     <TextView
                         android:id="@+id/textView4"
+                        style="@style/subTotalGuestsTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/total_textField"
-                        style="@style/subTotalGuestsTextView"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/txvTotal"
+                        style="@style/subTotalNumberGuestsTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
-                        style="@style/subTotalNumberGuestsTextView"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background">
 
     <TextView
         android:id="@+id/txvTitle"
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/select_the_event_type"
+        android:text="@string/select_the_location_method"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
                 style="@style/eventsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_barbecue"
+                android:text="@string/title_address"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title" />
@@ -49,8 +49,8 @@
             <ImageButton
                 android:id="@+id/barbecue"
                 style="@style/eventImageButton"
-                android:onClick="imgButtonClicked"
-                android:src="@drawable/barbecue"
+                android:onClick="searchByAddress"
+                android:src="@drawable/address"
                 android:tag="BARBECUE"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -58,35 +58,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/linearBirthday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/event_layout_margin"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/birthday_lbl"
-                style="@style/eventsTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title_birthday"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/title" />
-
-            <ImageButton
-                android:id="@+id/birthday"
-                style="@style/eventImageButton"
-                android:onClick="imgButtonClicked"
-                android:src="@drawable/birthday"
-                android:tag="BIRTHDAY"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/barbecue_lbl" />
-
-        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearMeeting"
@@ -101,7 +72,7 @@
                 style="@style/eventsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_business"
+                android:text="@string/title_establishment"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/title" />
@@ -109,8 +80,8 @@
             <ImageButton
                 android:id="@+id/meeting"
                 style="@style/eventImageButton"
-                android:onClick="imgButtonClicked"
-                android:src="@drawable/business"
+                android:onClick="searchByEstablishment"
+                android:src="@drawable/establishment"
                 android:tag="BUSINESS_MEETING"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -119,6 +90,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
